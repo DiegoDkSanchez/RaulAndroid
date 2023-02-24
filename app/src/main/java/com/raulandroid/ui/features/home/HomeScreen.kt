@@ -1,4 +1,4 @@
-package com.raulandroid.ui.features
+package com.raulandroid.ui.features.home
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.*
@@ -16,6 +16,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.raulandroid.ui.features.routines.RoutineScreen
+import com.raulandroid.ui.features.summary.SummaryScreen
 import com.raulandroid.ui.nav.Screen
 
 /// Navigation

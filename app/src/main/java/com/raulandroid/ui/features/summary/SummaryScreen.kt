@@ -1,4 +1,4 @@
-package com.raulandroid.ui.features
+package com.raulandroid.ui.features.summary
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column

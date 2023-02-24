@@ -3,7 +3,7 @@ package com.raulandroid
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import com.raulandroid.ui.features.HomeScreen
+import com.raulandroid.ui.features.home.HomeScreen
 import com.raulandroid.ui.theme.RaulAndroidTheme
 
 class MainActivity : ComponentActivity() {
