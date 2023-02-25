@@ -1,6 +1,7 @@
 package com.raulandroid.database.daos
 
 import androidx.room.Dao
+import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.Query
 import com.raulandroid.database.entities.ExerciseEntity
@@ -18,4 +19,7 @@ interface ExerciseDao {
 
     @Insert
     fun insertExercise(vararg exerciseEntity: ExerciseEntity)
+
+    @Delete
+    fun deleteExercise(exerciseEntity: ExerciseEntity)
 }
