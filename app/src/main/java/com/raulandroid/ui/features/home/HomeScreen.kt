@@ -15,7 +15,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
-import com.raulandroid.ui.features.routines.RoutineScreen
+import com.raulandroid.ui.features.routines.RoutinesScreen
 import com.raulandroid.ui.features.summary.SummaryScreen
 import com.raulandroid.ui.nav.Screen
 
@@ -66,7 +66,7 @@ fun HomeScreen() {
             startDestination = Screen.Routines.route,
             Modifier.padding(innerPadding)
         ) {
-            composable(Screen.Routines.route) { RoutineScreen() }
+            composable(Screen.Routines.route) { RoutinesScreen() }
             composable(Screen.Summary.route) { SummaryScreen() }
         }
     }

@@ -1,4 +1,7 @@
 package com.raulandroid.repository
 
-class RaulRepository {
+import javax.inject.Inject
+
+
+class RaulRepository @Inject constructor() {
 }
